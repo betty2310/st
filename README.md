@@ -52,7 +52,33 @@ xrdb merge pathToXresourcesFile
   <br>
 
 ## Default Keybindings<br>
-
+#### Keyboard
+| Keybind | Action |
+| --- | --- |
+| <kbd>super + ,</kbd> | Zoom in |
+| <kbd>super + .</kbd> | Zoom out |
+| <kbd>super + g</kbd> | Reset zoom |
+| <kbd>ctrl + shift + c</kbd> | Copy |
+| <kbd>ctrl + shift + v</kbd> | Paste |
+| <kbd>super + [1-0]</kbd> | View tag AKA change workspace (for you i3 folks) |
+| <kbd>super + shift + [1-0]</kbd> | Move focused client to tag |
+| <kbd>super + s</kbd> | Tiling layout |
+| <kbd>super + shift + s</kbd> | Floating layout |
+| <kbd>super + w</kbd> | Maximized / Monocle layout |
+| <kbd>super + [arrow keys]</kbd> | Change focus by direction |
+| <kbd>super + [hjkl]</kbd> | ^ |
+| <kbd>super + shift + [arrow keys]</kbd> | Move client by direction. Move to edge if it is floating. |
+| <kbd>super + shift + [hjkl]</kbd> | ^ |
+| <kbd>super + control + [arrow keys]</kbd> | Resize client |
+| <kbd>super + control + [hjkl]</kbd> | ^ |
+| <kbd>super + f</kbd> | Toggle fullscreen |
+| <kbd>super + m</kbd> | Toggle maximize |
+| <kbd>super + n</kbd> | Minimize |
+| <kbd>super + shift + n</kbd> | Restore minimized |
+| <kbd>super + c</kbd> | Center floating client |
+| <kbd>super + u</kbd> | Jump to urgent client (or back to last tag if there is no such client) |
+| <kbd>super + b</kbd> | Toggle bar |
+| <kbd>super + =</kbd> | Toggle tray |
 <pre>
 ctrl + shift + c        Copy  <br>
 ctrl + shift + v        Paste <br>
