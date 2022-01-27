@@ -5,7 +5,6 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-
 static char *font =
     "JetBrainsMono Nerd Font,JetBrains Mono:style=Medium:pixelsize=17:antialias=true:autohint=true";
 static char *font2[] = {"JetBrains Mono:style:Medium:pixelsize=17:antialias=true:autohint=true",
@@ -117,7 +116,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 4;
 
 /* bg opacity */
-float alpha = 0.9, alphaUnfocused = 0.95;
+float alpha = 0.92, alphaUnfocused = 0.95;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
@@ -218,8 +217,8 @@ static MouseShortcut mshortcuts[] = {
 };
 
 /* Internal keyboard shortcuts. */
-#define MODKEY Mod1Mask
-#define TERMMOD (Mod4Mask | ShiftMask)
+#define MODKEY Mod4Mask
+#define TERMMOD (Mod1Mask | ShiftMask)
 
 MouseKey mkeys[] = {
     /* button               mask            function        argument */

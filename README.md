@@ -8,7 +8,7 @@
 
 ```
 # Debian (and ubuntu probably)
-apt install build-essential libxft-dev libharfbuzz-dev 
+apt install build-essential libxft-dev libharfbuzz-dev
 
 (most of these are already installed on Arch based distros)
 
@@ -20,19 +20,19 @@ apt install build-essential libxft-dev libharfbuzz-dev
 ```
 git clone https://github.com/betty2310/st.git
 cd st
-sudo make install 
+sudo make install
 xrdb merge pathToXresourcesFile
 ```
 
-(note : put the xrdb merge command in your wm's autostart or similar) 
+(note : put the xrdb merge command in your wm's autostart or similar)
 
-## Fonts 
+## Fonts
 
 - Install JetbrainsMono Mono Nerd Font or any nerd font from [here](https://www.nerdfonts.com/font-downloads)
 
 ## Patches:
 
-- alpha 
+- alpha
 - Ligatures
 - sixel (check sixel branch)
 - scrollback
@@ -52,66 +52,29 @@ xrdb merge pathToXresourcesFile
   <br>
 
 ## Default Keybindings<br>
+
 #### Keyboard
-| Keybind | Action |
-| --- | --- |
-| <kbd>super + ,</kbd> | Zoom in |
-| <kbd>super + .</kbd> | Zoom out |
-| <kbd>super + g</kbd> | Reset zoom |
-| <kbd>ctrl + shift + c</kbd> | Copy |
-| <kbd>ctrl + shift + v</kbd> | Paste |
-| <kbd>super + [1-0]</kbd> | View tag AKA change workspace (for you i3 folks) |
-| <kbd>super + shift + [1-0]</kbd> | Move focused client to tag |
-| <kbd>super + s</kbd> | Tiling layout |
-| <kbd>super + shift + s</kbd> | Floating layout |
-| <kbd>super + w</kbd> | Maximized / Monocle layout |
-| <kbd>super + [arrow keys]</kbd> | Change focus by direction |
-| <kbd>super + [hjkl]</kbd> | ^ |
-| <kbd>super + shift + [arrow keys]</kbd> | Move client by direction. Move to edge if it is floating. |
-| <kbd>super + shift + [hjkl]</kbd> | ^ |
-| <kbd>super + control + [arrow keys]</kbd> | Resize client |
-| <kbd>super + control + [hjkl]</kbd> | ^ |
-| <kbd>super + f</kbd> | Toggle fullscreen |
-| <kbd>super + m</kbd> | Toggle maximize |
-| <kbd>super + n</kbd> | Minimize |
-| <kbd>super + shift + n</kbd> | Restore minimized |
-| <kbd>super + c</kbd> | Center floating client |
-| <kbd>super + u</kbd> | Jump to urgent client (or back to last tag if there is no such client) |
-| <kbd>super + b</kbd> | Toggle bar |
-| <kbd>super + =</kbd> | Toggle tray |
-<pre>
-ctrl + shift + c        Copy  <br>
-ctrl + shift + v        Paste <br>
-right click on the terminal ( will paste the copied thing ) 
 
-(Zoom)
-alt  + comma            Zoom in <br>
-alt  + .                Zoom out <br>
-alt  + g                Reset Zoom<br>
-
-(Transparency)
-alt  + s                Increase Transparency<br>
-alt  + a                Decrease Transparency<br>
-alt  + m                Reset Transparency<br>
-
-alt + k                 scroll down 
-alt + j                 scroll up
-
-mod + shift + enter    open a new terminal with same cwd ( current working directory )
-</pre>
-
-you can change all of these in config.h
-<br>
+| Keybind                     | Action                |
+| --------------------------- | --------------------- |
+| <kbd>super + ,</kbd>        | Zoom in               |
+| <kbd>super + .</kbd>        | Zoom out              |
+| <kbd>super + g</kbd>        | Reset zoom            |
+| <kbd>ctrl + shift + c</kbd> | Copy                  |
+| <kbd>ctrl + shift + v</kbd> | Paste                 |
+| <kbd>super + s</kbd>        | Increase Transparency |
+| <kbd>super + a</kbd>        | Decrease Transparency |
+| <kbd>super + m</kbd>        | Reset Transparency    |
+| <kbd>super + k</kbd>        | Scroll up             |
+| <kbd>super + j</kbd>        | Scroll down           |
 
 ## Themes/Fonts used
 
 - ls-icons: https://github.com/Yash-Handa/logo-ls <br>
-- Theme: [nord](https://www.nordtheme.com/) 
+- Theme: [nord](https://www.nordtheme.com/)
 - Font: JetbrainsMono Nerd Font + material design icon fonts
 
 # Credits
 
-- [live-reload](https://github.com/nimaipatel/st) 
+- [live-reload](https://github.com/nimaipatel/st)
 - [patch_column](https://github.com/nimaipatel/st/blob/all/patches/7672445bab01cb4e861651dc540566ac22e25812.diff)
-
-
