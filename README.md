@@ -21,7 +21,7 @@ apt install build-essential libxft-dev libharfbuzz-dev
 git clone https://github.com/betty2310/st.git
 cd st
 sudo make install
-xrdb merge pathToXresourcesFile
+xrdb merge path-to-your-XresourcesFile
 ```
 
 (note : put the xrdb merge command in your wm's autostart or similar)
@@ -29,6 +29,7 @@ xrdb merge pathToXresourcesFile
 ## Fonts
 
 - Install JetbrainsMono Mono Nerd Font or any nerd font from [here](https://www.nerdfonts.com/font-downloads)
+- For Japanese, install [Kiwi Maru](https://fonts.google.com/specimen/Kiwi%20Maru#standard-styles).
 
 ## Patches:
 
@@ -66,11 +67,6 @@ xrdb merge pathToXresourcesFile
 | <kbd>super + k</kbd>        | Scroll up             |
 | <kbd>super + j</kbd>        | Scroll down           |
 
-## Themes/Fonts used
-
-- ls-icons: https://github.com/Yash-Handa/logo-ls <br>
-- Theme: [nord](https://www.nordtheme.com/)
-- Font: JetbrainsMono Nerd Font + material design icon fonts
 
 # Credits
 
