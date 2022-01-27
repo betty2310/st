@@ -2,7 +2,7 @@
 
 ## Demo
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cd369192-aaac-4df1-9bde-7406caac1f17/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220120%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220120T063300Z&X-Amz-Expires=86400&X-Amz-Signature=a191bb25647b48caacf6dfb9a0f7a602fd5dddf91eced2fa0aa8fc0ad54e0146&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject"> <br><br>
+<img src="https://raw.githubusercontent.com/betty2310/file/main/st/st.png"> <br><br>
 
 ## Dependencies
 
@@ -52,8 +52,6 @@ xrdb merge pathToXresourcesFile
   <br>
 
 ## Default Keybindings<br>
-
-#### Keyboard
 
 | Keybind                     | Action                |
 | --------------------------- | --------------------- |
