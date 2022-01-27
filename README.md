@@ -3,7 +3,7 @@
 ## Demo
 
 <img src="https://raw.githubusercontent.com/betty2310/file/main/st/st.png"> <br><br>
-
+Japanese, Vietnamese, icons and image render perfect. 
 ## Dependencies
 
 ```
