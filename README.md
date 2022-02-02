@@ -40,6 +40,7 @@ xrdb merge path-to-your-XresourcesFile
 - Clipboard
 - Alpha(Transparency)
 - Boxdraw
+- Dynamic cursor color
 - patch_column ( doesnt cut text while resizing)
 - font2
 - right click paste
@@ -54,18 +55,21 @@ xrdb merge path-to-your-XresourcesFile
 
 ## Default Keybindings<br>
 
-| Keybind                     | Action                |
-| --------------------------- | --------------------- |
-| <kbd>super + ,</kbd>        | Zoom in               |
-| <kbd>super + .</kbd>        | Zoom out              |
-| <kbd>super + g</kbd>        | Reset zoom            |
-| <kbd>ctrl + shift + c</kbd> | Copy                  |
-| <kbd>ctrl + shift + v</kbd> | Paste                 |
-| <kbd>super + s</kbd>        | Increase Transparency |
-| <kbd>super + a</kbd>        | Decrease Transparency |
-| <kbd>super + m</kbd>        | Reset Transparency    |
-| <kbd>super + k</kbd>        | Scroll up             |
-| <kbd>super + j</kbd>        | Scroll down           |
+| Keybind                         | Action                                                       |
+| ------------------------------- | ------------------------------------------------------------ |
+| <kbd>super + ,</kbd>            | Zoom in                                                      |
+| <kbd>super + .</kbd>            | Zoom out                                                     |
+| <kbd>super + g</kbd>            | Reset zoom                                                   |
+| <kbd>ctrl + shift + c</kbd>     | Copy                                                         |
+| <kbd>ctrl + shift + v</kbd>     | Paste                                                        |
+| <kbd>super + s</kbd>            | Increase Transparency                                        |
+| <kbd>super + a</kbd>            | Decrease Transparency                                        |
+| <kbd>super + m</kbd>            | Reset Transparency                                           |
+| <kbd>super + k</kbd>            | Scroll up                                                    |
+| <kbd>super + j</kbd>            | Scroll down                                                  |
+| <kbd>super + o</kbd>            | Open urls exits (use [dmenu](https://tools.suckless.org/dmenu/) to select) |
+| <kbd>super + y</kbd>            | Copy urls exits (use [dmenu](https://tools.suckless.org/dmenu/) to select) |
+| <kbd>ctrl + shift + Enter</kbd> | Open new terminal with same diectory                         |
 
 
 # Credits
