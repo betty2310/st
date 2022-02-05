@@ -8,6 +8,7 @@
 static char *font =
     "JetBrainsMono Nerd Font,JetBrains Mono:style=Medium:pixelsize=17:antialias=true:autohint=true";
 static char *font2[] = {"JetBrains Mono:style:Medium:pixelsize=17:antialias=true:autohint=true",
+                        "Font Awesome 6 Pro:style:Solid:pixelsize=13:antialias=true:autohint=true",
                         "Kiwi Maru:style:Medium:pixelsize=18:antialias=true:autohint=true"};
 static int borderpx = 15;
 
@@ -218,7 +219,7 @@ static MouseShortcut mshortcuts[] = {
 
 /* Internal keyboard shortcuts. */
 #define MODKEY Mod4Mask
-#define TERMMOD (Mod1Mask | ShiftMask)
+#define TERMMOD (ControlMask | ShiftMask)
 
 MouseKey mkeys[] = {
     /* button               mask            function        argument */
@@ -235,8 +236,9 @@ static char *copyurlcmd[] = {
     "tmp=$(sed 's/.*│//g' | tr -d '\n' | grep -aEo "
     "'(((http|https|gopher|gemini|ftp|ftps|git)://|www\\.)[a-zA-Z0-9.]*[:]?[a-zA-Z0-9./"
     "@$&%?$#=_-~]*)|((magnet:\\?xt=urn:btih:)[a-zA-Z0-9]*)' | uniq | sed "
-    "'s/^www./http:\\/\\/www\\./g' ); IFS=; [ ! -z $tmp ] && echo $tmp | dmenu -i -p 'Copy which "
-    "url?' -l 10 | tr -d '\n' | xclip -selection clipboard",
+    "'s/^www./http:\\/\\/www\\./g' ); IFS=; [ ! -z $tmp ] && echo $tmp | dmenu -i -p 'Copy url  "
+    "?' -l 10 -class films -fn 'JetBrainsMonoMedium Nerd Font-8' -o 0.9 -sb '#A3BE8C' -sf "
+    "'#2E3440' | tr -d '\n' | xclip -selection clipboard",
     "externalpipe", NULL};
 
 static char *copyoutput[] = {"/bin/sh", "-c", "st-copyout", "externalpipe", NULL};
@@ -276,9 +278,9 @@ static Shortcut shortcuts[] = {
     {TERMMOD, XK_J, zoom, {.f = -1}},
     {TERMMOD, XK_U, zoom, {.f = +2}},
     {TERMMOD, XK_D, zoom, {.f = -2}},
-    {MODKEY, XK_l, externalpipe, {.v = openurlcmd}},
+    {MODKEY, XK_o, externalpipe, {.v = openurlcmd}},
     {MODKEY, XK_y, externalpipe, {.v = copyurlcmd}},
-    {MODKEY, XK_o, externalpipe, {.v = copyoutput}},
+    {MODKEY, XK_p, externalpipe, {.v = copyoutput}},
     {TERMMOD, XK_Return, newterm, {.i = 0}},
 
 };
