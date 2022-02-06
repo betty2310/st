@@ -6,9 +6,8 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font =
-    "JetBrainsMono Nerd Font,JetBrains Mono:style=Medium:pixelsize=17:antialias=true:autohint=true";
+    "JetBrainsMono Nerd Font:style=Medium:pixelsize=17:antialias=true:autohint=true";
 static char *font2[] = {"JetBrains Mono:style:Medium:pixelsize=17:antialias=true:autohint=true",
-                        "Font Awesome 6 Pro:style:Solid:pixelsize=13:antialias=true:autohint=true",
                         "Kiwi Maru:style:Medium:pixelsize=18:antialias=true:autohint=true"};
 static int borderpx = 15;
 
@@ -159,7 +158,7 @@ static unsigned int rows = 24;
 /*
  * Default colour and shape of the mouse cursor
  */
-static unsigned int mouseshape = XC_xterm;
+static unsigned int mouseshape = XC_left_ptr;
 static unsigned int mousefg = 7;
 static unsigned int mousebg = 0;
 
