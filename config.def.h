@@ -5,11 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Iosevka SS05:style:Medium:pixelsize=20:antialias=true:autohint=true";
+static char *font = "Iosevka:style=Medium:pixelsize=19:antialias=true:autohint=true";
 //
 static char *font2[] = {
     "JetBrainsMono Nerd Font:style=Medium:pixelsize=17:antialias=true:autohint=true",
-    "Material Design Icons:style:Regular:pixelsize=17:antialias=true:autohint=true",
+    "Material Design Icons:style:Regular:pixelsize=18:antialias=true:autohint=true",
     "Kiwi Maru:style:Medium:pixelsize=18:antialias=true:autohint=true"};
 static int borderpx = 15;
 
